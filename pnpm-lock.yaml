@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@date-fns/tz':
+        specifier: ^1.2.0
+        version: 1.2.0
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0
@@ -16,6 +19,9 @@ importers:
         version: 5.8.3
 
 packages:
+
+  '@date-fns/tz@1.2.0':
+    resolution: {integrity: sha512-LBrd7MiJZ9McsOgxqWX7AaxrDjcFVjWH/tIKJd7pnR7McaslGYOP1QmmiBXdJH/H/yLCT+rcQ7FaPBUxRGUtrg==}
 
   date-fns@4.1.0:
     resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
@@ -26,6 +32,8 @@ packages:
     hasBin: true
 
 snapshots:
+
+  '@date-fns/tz@1.2.0': {}
 
   date-fns@4.1.0: {}
 
